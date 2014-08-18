@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" href="./resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="./resources/css/bootstrap-theme.css">
+<link rel="stylesheet" href="./resources/css/bootstrap-switch.css">
+<link rel="stylesheet" href="./resources/css/normalize.css">
+
+<link rel="stylesheet" href="./resources/css/style.css">
+<link rel="stylesheet" href="./resources/css/responsive.css">
+
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div id="designTop"></div>
+<div id="header-profile">
+	<div class="content" style="text-align: left; line-height: 1;">
+		<span class="header">IEC<span class="orange">TS</span></span><br>
+		<span class="subHeader">Indonesian Evangelical Church TranSystem</span>
+	</div>
+</div>
+<div id="main">
+	<div class="date">FRIDAY, March 7th 2014</div>
+	<div class="confirmation"><input type="checkbox" name="my-checkbox" checked><br><br><br></div>
+	<div class="date">SUNDAY, March 9th 2014</div>
+	<div class="confirmation"><input type="checkbox" name="my-checkbox" checked><br><br><br></div>
+	<div class="date">FRIDAY, March 14th 2014</div>
+	<div class="confirmation"><input type="checkbox" name="my-checkbox" checked><br><br><br></div>
+	<div class="date">SUNDAY, March 16th 2014</div>
+	<div class="confirmation"><input type="checkbox" name="my-checkbox" checked><br><br><br></div>
+</div>
+<div id="footer">
+	<div class="content">
+		&copy Pemuda GII 2014 All Rights Reserved.
+	</div>
+</div>
+<div style="clear: both;"></div>
+</body>
+
+<script type="text/javascript" src="./resources/js/jquery-1.11.0.js"></script>
+<script type="text/javascript" src="./resources/js/bootstrap-switch-iects.js"></script>
+<script>
+$(document).ready(function() {
+	console.log("HTML ready");
+	$("[name='my-checkbox']").bootstrapSwitch();
+});
+</script>
+
+</html>

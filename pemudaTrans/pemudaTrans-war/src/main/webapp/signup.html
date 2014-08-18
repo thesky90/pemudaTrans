@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" href="./resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="./resources/css/bootstrap-theme.css">
+<link rel="stylesheet" href="./resources/css/normalize.css">
+
+<link rel="stylesheet" href="./resources/css/style.css">
+<link rel="stylesheet" href="./resources/css/responsive.css">
+
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-glyphicons.css"> -->
+</head>
+
+<body>
+<div id="designTop"></div>
+<div id="header">
+	<div class="content">
+		<span class="header">IEC<span class="orange">TS</span></span><br>
+		<span class="subHeader">Indonesian Evangelical Church TranSystem</span>
+	</div>
+</div>
+
+<div id="main-signup">
+	<div class="content">
+		<div id="background-photo">
+		</div>
+		<div class="row">
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-7 col-md-offset-0 col-md-7 col-lg-offset-0 col-lg-7 text-align-left" style="margin-top:10px;">
+				Create Username:
+			</div>
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-offset-0 col-md-4 col-lg-offset-0 col-lg-4">
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon" style="padding-left: 15px; padding-right: 14px;">@</span>
+					<input type="text" class="form-control" placeholder="Username" maxlength="20">
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-7 col-md-offset-0 col-md-7 col-lg-offset-0 col-lg-7 text-align-left" style="margin-top:10px;">
+				Password:
+			</div>
+
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-offset-0 col-md-4 col-lg-offset-0 col-lg-4">
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon" style="padding-left: 10px;">PW</span>
+					<input id="inputPassword" name="inputPassword" type="password" class="form-control" placeholder="Password" maxlength="20">
+				</div>
+				<span id="password-indicator-ok" class="password-indicator glyphicon glyphicon-ok-circle" style="position: absolute; right: -10px; top: 5px; font-size: 14pt; visibility: hidden;">
+				<span id="password-indicator-wrong" class="glyphicon glyphicon-remove-circle" style="position: absolute; right: 0px; top: 0px; font-size: 14pt; visibility: hidden;">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-7 col-md-offset-0 col-md-7 col-lg-offset-0 col-lg-7 text-align-left" style="margin-top:10px;">
+				Confirm Your Password:
+			</div>
+
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-offset-0 col-md-4 col-lg-offset-0 col-lg-4">
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon" style="padding-left: 10px;">PW</span>
+					<input id="confirmPassword" type="password" class="form-control" placeholder="Retype Your Password" maxlength="20">
+				</div>
+				<span id="passwordConfirmation-indicator-ok" class="password-indicator glyphicon glyphicon-ok-circle" style="position: absolute; right: -10px; top: 5px; font-size: 14pt; visibility: hidden;">
+				<span id="passwordConfirmation-indicator-wrong" class="glyphicon glyphicon-remove-circle" style="position: absolute; right: 0px; top: 0px; font-size: 14pt; visibility: hidden;">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-7 col-md-offset-0 col-md-7 col-lg-offset-0 col-lg-7 text-align-left" style="margin-top:10px;">
+				Name:
+			</div>
+
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-offset-0 col-md-4 col-lg-offset-0 col-lg-4">
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon" style="padding-left: 13px;">FN</span>
+					<input type="text" class="form-control" placeholder="First Name">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-7 col-sm-4 col-md-offset-7 col-md-4 col-lg-offset-7 col-lg-4">
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon" style="padding-right:9px;">MN</span>
+					<input type="text" class="form-control" placeholder="Middle Name">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-7 col-sm-4 col-md-offset-7 col-md-4 col-lg-offset-7 col-lg-4">
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon" style="padding-left: 14px;">LN</span>
+					<input type="text" class="form-control" placeholder="Last Name">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-7 col-md-offset-0 col-md-7 col-lg-offset-0 col-lg-7 text-align-left" style="margin-top:10px;">
+				Address:
+			</div>
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-offset-0 col-md-4 col-lg-offset-0 col-lg-4">
+				<textarea class="textArea" maxlength="80" placeholder="Where Do You Live?"></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-7 col-sm-4 col-md-offset-7 col-md-4 col-lg-offset-7 col-lg-4">
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon" style="padding-left: 14px;">CT</span>
+					<input type="text" class="form-control" placeholder="City" maxlength="20">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-7 col-sm-4 col-md-offset-7 col-md-4 col-lg-offset-7 col-lg-4">
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon" style="padding-left: 16px;">ST</span>
+					<input type="text" class="form-control" placeholder="State" maxlength="20">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="signUpTab col-xs-offset-2 col-xs-8 col-sm-offset-7 col-sm-4 col-md-offset-7 col-md-4 col-lg-offset-7 col-lg-4" style="width: 180px;">
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon" style="padding-left: 14px;">ZC</span>
+					<input type="text" class="form-control" placeholder="Zip Code" maxlength="10">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="smallNote col-xs-offset-2 col-xs-8 col-sm-offset-7 col-sm-4 col-md-offset-7 col-md-4 col-lg-offset-7 col-lg-4">
+				Already A member? <a href="login.html" class="link">Login</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="errorMessage col-xs-offset-2 col-xs-8 col-sm-offset-7 col-sm-4 col-md-offset-7 col-md-4 col-lg-offset-7 col-lg-4">
+				Incorrect combination of Username and Password!
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-offset-2 col-xs-8 col-sm-offset-7 col-sm-4 col-md-offset-7 col-md-4 col-lg-offset-7 col-lg-4">
+				<a href="#" class="button">Sign Up</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div class="content">
+		&copy Pemuda GII 2014 All Rights Reserved.</span>
+	</div>
+</div>
+<div style="clear: both;"></div>
+
+</body>
+
+<script type="text/javascript" src="./resources/js/jquery-1.11.0.js"></script>
+<script>
+$(document).ready(function() {
+	console.log("HTML ready");
+	var pass = false;
+
+	$('#inputPassword').focusout(function() {
+		/**
+		 * Initialize password requirement
+		 * bool[0] = password length
+		 * bool[1] = alphabet
+		 * bool[2] = numeric
+		 */
+		var bool = [3];
+		for (var i=0; i < 3; i++) {
+			bool[i] = false;
+		}
+
+		var iPass = $('#inputPassword').val();
+		var passLength = iPass.length;
+		if ((passLength >= 8) && (passLength <= 20)) {
+			bool[0] = true;
+			for (var i=0; i < passLength; i++) {
+				if (isAlpha(iPass[i])) {
+					bool[1] = true;
+				}
+				if ($.isNumeric(iPass[i])) {
+					bool[2] = true;
+				}
+			}
+
+			if (bool[1] == false) {
+				//condition where the password does not contain alphabet
+			}
+
+			if (bool[2] == false) {
+				// condition where the password does not contain numbers
+			}
+		} else {
+			//condition where password length is between 8-20 character
+		}
+		
+		console.log("\nPassword Checker");
+		console.log("Length   : " + bool[0]);
+		console.log("* Below this line will emit false if length is less than 8");
+		console.log("isAlpha  : " + bool[1]);
+		console.log("isNumeric: " + bool[2]);
+
+		if ((bool[0] == true) && (bool[1] == true) && (bool[2] == true)) {
+			pass = true;
+			$('#password-indicator-wrong').css("visibility", "hidden");
+			$('#password-indicator-ok').css("visibility", "visible");
+		} else {
+			pass = false;
+			$('#password-indicator-ok').css("visibility", "hidden");
+			$('#password-indicator-wrong').css("visibility", "visible");
+		}
+
+		if (($('#passwordConfirmation-indicator-ok').css("visibility") == "visible") || 
+			($('#passwordConfirmation-indicator-wrong').css("visibility") == "visible")) {
+			var iPass = $('#inputPassword').val();
+			var cPass = $('#confirmPassword').val();
+			if ((iPass != cPass) || (cPass == "")) {
+				
+				console.log("Warning: Wrong password confirmation!");
+				$('#passwordConfirmation-indicator-ok').css("visibility", "hidden");
+				$('#passwordConfirmation-indicator-wrong').css("visibility", "visible");
+			} else {
+				console.log("Confirmation passed!")
+				$('#passwordConfirmation-indicator-wrong').css("visibility", "hidden");
+				$('#passwordConfirmation-indicator-ok').css("visibility", "visible");
+			}
+		}
+	});
+
+
+	$('#confirmPassword').focusout(function() {
+		console.log("Checking Password Confirmation");
+		var iPass = $('#inputPassword').val();
+		var cPass = $('#confirmPassword').val();
+		if (pass == true) {
+			console.log("Password is accepted.");
+			if ((iPass != cPass) || (cPass == "")) {
+				console.log("Warning: Wrong password confirmation!");
+				$('#passwordConfirmation-indicator-ok').css("visibility", "hidden");
+				$('#passwordConfirmation-indicator-wrong').css("visibility", "visible");
+			} else {
+				console.log("Confirmation passed!")
+				$('#passwordConfirmation-indicator-wrong').css("visibility", "hidden");
+				$('#passwordConfirmation-indicator-ok').css("visibility", "visible");
+			}
+		} else {
+			console.log("Password is not accepted.");
+			$('#passwordConfirmation-indicator-wrong').css("visibility", "hidden");
+			$('#passwordConfirmation-indicator-ok').css("visibility", "hidden");
+		}
+	});
+});
+
+function isAlpha(x) {
+	return /[a-zA-Z]/.test(x);
+}
+</script>
+
+</html>

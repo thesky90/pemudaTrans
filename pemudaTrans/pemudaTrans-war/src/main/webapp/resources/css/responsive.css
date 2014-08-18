@@ -1,0 +1,67 @@
+/* We are not working mobile-first like bootstrap wants us to do */
+
+@media (max-width: 1024px) {
+	#background-photo {
+		background-size: 300px 150px;
+	}
+}
+
+@media (max-width: 991px) {
+	/* tablet version */
+
+}
+
+@media (max-width: 767px) {
+	/* phone version */
+	.header {
+		font-size: 20pt;
+	}
+	.subHeader {
+		font-size: 9pt;
+	}
+	.content {
+		font-size: 8pt;
+	}
+	.errorMessage {
+		margin-bottom: 15px;
+	}
+	#main-login {
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	#main-signup {
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+	#background-photo {
+		display: none;
+	}
+	#username {
+		width: 150px;
+		height: 28px;
+		padding-bottom: 9px;
+		font-size: 10pt;
+	}
+	#password {
+		width: 150px;
+		height: 28px;
+		padding-top: 9px;
+		font-size: 10pt;
+	}
+	.smallNote {
+		font-size: 8pt;
+	}
+	.button {
+		width: 150px;
+		font-size: 10pt;
+	}
+	.signUpTab {
+		margin-bottom: 0;
+	}
+
+	.date {
+		font-size: 9pt;
+	}
+}
+
+
